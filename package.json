@@ -1,0 +1,25 @@
+{
+  "name": "solana-wallet-monitor",
+  "version": "1.0.0",
+  "description": "Monitor Solana wallet transactions and export data to CSV",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "monitor": "node src/monitor.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "solana",
+    "birdeye",
+    "wallet",
+    "monitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "monitor": "node src/monitor.js",
-    "test": "node src/test.js"
+    "test-config": "node src/test-config.js"
   },
   "keywords": [
     "solana",
